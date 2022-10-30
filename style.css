@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    margin: 0px;
+    padding:0;
+    flex-direction: column;
+  }
+header{
+    background-color: #1f2937;
+    margin: 0px;
+}
+main{
+    background-color: #3882F6;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+main2{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7em 13em;
+    align-items: center;
+
+}
+main3{
+    display:flex;
+    background-color: white;
+    padding: 7em 13em;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    margin-right: 900px;
+    margin-left: 200px;
+
+}
+a , .Second{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+
+.subheader{
+    display:flex;
+    gap: 1.5em;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.welcome .left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Title{
+   font-size: 48px;
+   font-weight: bolder;
+   color: #f9faf8;
+}
+
+.welcome .right{
+    flex-shrink:0;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+button.sign {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+
+.Image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    background-color: gray;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    flex-wrap: wrap;
+  }
+
+.maintitle{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    font-family: #1F2937;
+}
+.Image2{
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+    border-color: black;
+    background-color: #f9faf8;
+    border: 4px solid #3882F6;
+}
+.info{
+    max-width: 200px;
+    text-align: center;
+}
+.p1{
+    font-size: 36px;
+    color: black;
+    margin-top: 50px;
+
+}
+
+.p2{
+    align-self: flex-end;
+}
+
+.blue{
+    display: flex;
+    background-color: #3882F6;
+    padding: 3em;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+.blue .left{
+    display:flex;
+    flex-direction: column;
+
+}
